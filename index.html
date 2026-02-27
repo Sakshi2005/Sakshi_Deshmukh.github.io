@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sakshi | Master Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:#f1f5f9;
+}
+
+/* HEADER */
+header{
+position:fixed;
+width:100%;
+top:0;
+background:#1e293b;
+padding:15px 8%;
+text-align:center;
+z-index:1000;
+}
+
+header h1{
+font-size:18px;
+}
+
+.hero{
+padding-top:120px;
+padding-bottom:80px;
+text-align:center;
+background:linear-gradient(135deg,#0f172a,#1e293b,#0ea5e9);
+}
+
+.hero h2{
+font-size:34px;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:16px;
+opacity:0.9;
+}
+
+/* SECTION */
+.section{
+padding:80px 8%;
+}
+
+.section h2{
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:18px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+background:#334155;
+}
+
+.card h3{
+font-size:15px;
+color:#38bdf8;
+margin-bottom:8px;
+}
+
+.card p{
+font-size:13px;
+margin-bottom:6px;
+}
+
+.tech{
+font-size:12px;
+color:#22c55e;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+.hero h2{
+font-size:24px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Sakshi Deshmukh</h1>
+</header>
+
+<section class="hero">
+<h2>Web & Python Developer</h2>
+<p>Building modern web applications and AI-powered systems that run smoothly — even when the internet doesn’t — powered by clean code, scalable systems, and bugs fixed before they become features.</p>
+</section>
+
+<!-- FOUNDATION PROJECTS -->
+<section class="section">
+<h2>🟢 Foundation Level Projects</h2>
+<div class="projects">
+
+<div class="card"><h3>Advanced Calculator</h3><p>Multi-operation GUI calculator.</p><p class="tech">Python | Tkinter</p></div>
+
+<div class="card"><h3>Password Generator</h3><p>Custom password generator with complexity options.</p><p class="tech">Python</p></div>
+
+<div class="card"><h3>Rock Paper Scissors</h3><p>Interactive logic-based GUI game.</p><p class="tech">Python | Tkinter</p></div>
+
+<div class="card"><h3>Contact Book</h3><p>CRUD-based contact management system.</p><p class="tech">Python | Tkinter</p></div>
+
+<div class="card"><h3>To-Do List Application</h3><p>Task management CLI & GUI app.</p><p class="tech">Python</p></div>
+
+<div class="card"><h3>ATM GUI System</h3><p>Simulated ATM interface with transaction logic.</p><p class="tech">Python | Tkinter</p></div>
+
+<div class="card"><h3>Student PRN Sorting System</h3><p>Merging & sorting student DOB data.</p><p class="tech">Python</p></div>
+
+<div class="card"><h3>Critical Vine Count (DSA)</h3><p>Algorithmic graph problem solving.</p><p class="tech">Data Structures</p></div>
+
+</div>
+</section>
+
+<!-- APPLICATION LEVEL -->
+<section class="section">
+<h2>🟡 Application Level Projects</h2>
+<div class="projects">
+
+<div class="card"><h3>Coder Nickname Generator</h3><p>Personality-based nickname generator app.</p><p class="tech">Python | Tkinter</p></div>
+
+<div class="card"><h3>Event Organizer Dashboard</h3><p>Responsive multi-role event system.</p><p class="tech">HTML | CSS | JS</p></div>
+
+<div class="card"><h3>Send Invitation CSV System</h3><p>Bulk email invitation handler.</p><p class="tech">HTML | JS</p></div>
+
+<div class="card"><h3>Login & Booking Website</h3><p>Multi-page web application structure.</p><p class="tech">HTML | CSS</p></div>
+
+<div class="card"><h3>Smart Study Scheduler</h3><p>Django-based productivity manager.</p><p class="tech">Python | Django</p></div>
+
+</div>
+</section>
+
+<!-- BACKEND SYSTEMS -->
+<section class="section">
+<h2>🟠 Backend & System Projects</h2>
+<div class="projects">
+
+<div class="card"><h3>Dynamic Pricing System</h3><p>Ride-sharing backend pricing engine.</p><p class="tech">Node.js | MongoDB | Redis</p></div>
+
+<div class="card"><h3>Discount Code Integration</h3><p>Coupon system for dynamic pricing.</p><p class="tech">Node.js</p></div>
+
+<div class="card"><h3>Redis Caching Setup</h3><p>Performance optimization with Redis.</p><p class="tech">Redis</p></div>
+
+<div class="card"><h3>MongoDB Login Integration</h3><p>Authentication system integration.</p><p class="tech">MongoDB</p></div>
+
+<div class="card"><h3>Sentiment Analysis API</h3><p>Flask API for review classification.</p><p class="tech">Python | ML</p></div>
+
+<div class="card"><h3>AutoML Framework</h3><p>TPOT-based ML automation pipeline.</p><p class="tech">Python | Data Science</p></div>
+
+<div class="card"><h3>Multi-Modal Learning</h3><p>Integrated multi-input ML pipeline.</p><p class="tech">Machine Learning</p></div>
+
+<div class="card"><h3>Meta-Learning (MAML)</h3><p>Few-shot learning implementation.</p><p class="tech">Deep Learning</p></div>
+
+<div class="card"><h3>Scalable Architecture Design</h3><p>Designed modular ML architecture.</p><p class="tech">System Design</p></div>
+
+</div>
+</section>
+
+<!-- AI & INNOVATION -->
+<section class="section">
+<h2>🔴 AI & Innovation Projects</h2>
+<div class="projects">
+
+<div class="card"><h3>AI Quotation Generator</h3><p>AI-based quote system with automation.</p><p class="tech">Python | AI</p></div>
+
+<div class="card"><h3>Telegram Bot Integration</h3><p>Automated daily quote delivery.</p><p class="tech">Bot API</p></div>
+
+<div class="card"><h3>Text-to-Speech Integration</h3><p>Voice-enabled AI content system.</p><p class="tech">TTS</p></div>
+
+<div class="card"><h3>Traffic Violation Detection</h3><p>AI-powered monitoring system.</p><p class="tech">Computer Vision</p></div>
+
+<div class="card"><h3>VibeSnap AI</h3><p>AI-powered social media app concept.</p><p class="tech">Flutter | Firebase</p></div>
+
+<div class="card"><h3>BioVolt Mesh™</h3><p>Innovative MSME startup concept.</p><p class="tech">Innovation</p></div>
+
+<div class="card"><h3>Near&Dear App</h3><p>Emotional connection digital platform.</p><p class="tech">Startup Concept</p></div>
+
+</div>
+</section>
+
+<footer>
+© Sakshi Deshmukh | Portfolio
+</footer>
+
+</body>
+</html>
